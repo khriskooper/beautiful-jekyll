@@ -14,7 +14,7 @@ baseurl: "/beautiful-jekyll"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Elizabeth Garber Resume
+title: Elizabeth Garber
 
 # Short description of your site
 description: A virtual proof that name is awesome!
@@ -23,12 +23,11 @@ description: A virtual proof that name is awesome!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  Elizabeth: "aboutme"
+  Experience: "experience"
+  Community:  "community"
+    - Lean In South England: "leanin"
+  Writing: "blog"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -55,7 +54,7 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Elizabeth Garber
   email: "eliza.garber@gmail.com"
   facebook: elizabeth.garber  # eg. daattali
   github: yourname    # eg. daattali
@@ -63,23 +62,13 @@ author:
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: elizabethgarber  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
-  steam: yourname     # eg. daattali
-  twitch: yourname    # eg. daattali
-  yelp: yourname      # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
+  facebook: false
   email: true
-  twitter: true
+  twitter: false
   google-plus: false
   github: false
   reddit: false
@@ -98,7 +87,7 @@ footer-links-active:
 # Select which share links to show in posts
 share-links-active:
   twitter: false
-  facebook: true
+  facebook: false
   google: false
   linkedin: true
 
