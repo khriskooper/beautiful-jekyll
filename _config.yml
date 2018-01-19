@@ -25,7 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   Elizabeth: "aboutme"
   Experience: "experience"
-  Community:  "community"
+  Community:
     - Lean In South England: "leanin"
   Writing: "blog"
 
